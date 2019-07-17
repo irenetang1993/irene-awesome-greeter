@@ -1,0 +1,33 @@
+{
+  "name": "irene-awesome-greeter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irenetang1993/irene-awesome-greeter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irenetang1993/irene-awesome-greeter/issues"
+  },
+  "homepage": "https://github.com/irenetang1993/irene-awesome-greeter#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
